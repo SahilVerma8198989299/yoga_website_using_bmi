@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>sahil verma</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .complete {
+            /* background-color: black; */
+            box-shadow: blanchedalmond;
+            min-height: 100vh;
+            border: 10px solid blanchedalmond;
+        }
+
+        /* .gap{
+    height: 100px;
+    width: auto; */
+
+        /* } */
+        .frontimg {
+            height: auto;
+            width: fit-content
+        }
+
+        .navbar {
+            height: 100px;
+            width: auto;
+            background-color: rgb(218, 160, 84);
+            box-shadow: 0 4px 10px rgb(218, 160, 84);
+            /* padding: 25px; */
+        }
+
+        .home {
+            float: left;
+            color: aliceblue;
+            /* width: 150px; */
+            text-align: justify;
+            font-size: 20px;
+            margin-left: 30px;
+            /* border-bottom: 0.4rem transparent solid;
+    transition: 0.3s ease-in-out; */
+
+
+        }
+
+        .home:hover {
+            /* color: blueviolet; */
+            /* background-color: blueviolet; */
+            padding-top: 7px;
+            border-bottom: 0.3rem #dbd4db solid;
+            transition: 0.3s ease-in-out;
+        }
+
+        .chart {
+            float: left;
+            color: aliceblue;
+            /* width: 150px; */
+            text-align: justify;
+            font-size: 20px;
+            margin-left: 30px;
+        }
+
+        .chart:hover {
+            /* color: blueviolet; */
+            /* background-color: blueviolet; */
+            padding-top: 7px;
+            border-bottom: 0.3rem #dbd4db solid;
+            transition: 0.3s ease-in-out;
+        }
+
+        .gallery {
+            float: left;
+            color: aliceblue;
+            /* width: 150px; */
+            text-align: justify;
+            font-size: 20px;
+            margin-left: 30px;
+        }
+
+        .gallery:hover {
+            /* color: blueviolet; */
+            /* background-color: blueviolet; */
+            padding-top: 7px;
+            border-bottom: 0.3rem #dbd4db solid;
+            transition: 0.3s ease-in-out;
+        }
+
+        .about {
+            float: left;
+            color: aliceblue;
+            /* width: 150px; */
+            text-align: justify;
+            align-items: flex-end;
+            font-size: 20px;
+            margin-left: 30px;
+        }
+
+        .about:hover {
+            /* color: blueviolet; */
+            /* background-color: blueviolet; */
+            padding-top: 7px;
+            border-bottom: 0.3rem #dbd4db solid;
+            transition: 0.3s ease-in-out;
+        }
+
+        .contact {
+            float: left;
+            color: #2ff1f1;
+            margin-left: 30px;
+            text-align: justify;
+            font-size: 20px;
+
+        }
+
+        .contact:hover {
+            /* color: blueviolet; */
+            /* background-color: blueviolet; */
+            padding-top: 7px;
+            border-bottom: 0.3rem #dbd4db solid;
+            transition: 0.3s ease-in-out;
+        }
+
+        .butn {
+            margin-right: 5px;
+            float: right;
+            color: white text-align: justify;
+            font-size: 20px;
+            margin-left: 30px;
+            background-color: blanchedalmond;
+        }
+
+        .butn:hover {
+            color: rgb(196, 255, 232);
+            background-color: burlywood;
+
+        }
+
+        .gap2 {
+            height: 30px;
+            float: left;
+        }
+
+        /* .gapforhome{
+float: leaft;
+} */
+        .afterimg {
+            color: white;
+            height: 400px;
+        }
+
+        .gap3 {
+            height: 100px;
+        }
+
+        .navbar2 {
+            height: 100px;
+        }
+
+        .gap4 {
+            float: left;
+            width: 100px;
+            height: 200px;
+        }
+
+        .yoga {
+            width: 300px;
+            float: left;
+            font-size: 30px;
+            color: black;
+        }
+
+        .pose {
+            width: 300px;
+            float: left;
+            font-size: 30px;
+            color: black;
+        }
+
+        .history {
+            width: 300px;
+            float: left;
+            font-size: 30px;
+            color: black;
+        }
+
+        .meditaion {
+            width: 200px;
+            float: right;
+            font-size: 30px;
+            color: black;
+        }
+
+        .logo {
+            /* height: 100px; */
+            /* width: 100px; */
+            float: left;
+
+        }
+
+        .handlethehome {
+            float: right;
+            /* background-color: black; */
+            background-color: rgb(218, 160, 84);
+        }
+
+        /* .gap5 {
+      height: 30px;
+    } */
+
+        .conn {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .text-block {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background-color: white;
+            color: rgb(218, 160, 84);
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .gapforhome {
+            height: 30px;
+            width: auto;
+
+        }
+
+        .gap6 {
+            height: 200px;
+            width: 25px;
+            float: left;
+        }
+
+        .con1 {
+            width: 1000px;
+        }
+
+        .con2 {
+            width: 1300px;
+        }
+
+        .con3 {
+            width: 1300px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="complete">
+        <div class="gap1">
+            <div>
+                <center>
+                    <h1 style="background-color:white; color: rgb(218, 160, 84);;" id="bottomtotop">Yoga is a
+                            mental, physical, and spiritual practice which helps in attaining a great mind, body and
+                            soul.</h1>
+                        </center>
+            </div>
+            <!-- <div>
+                    <marquee>
+                        <h1>hello</h1>
+                    </marquee> 
+                </div> -->
+            <div class="navbar">
+                <div class="logo">
+                    <img src="C:\Users\DELL\OneDrive\Desktop\projectlogo.jpg" height="105px" width="100px">
+                </div>
+                <div class="gap2"></div>
+                <div class="gap5">
+
+                </div>
+                <div class="handlethehome">
+                    <div class="gapforhome"></div>
+                    <div class="home" style="color: aliceblue;"><a
+                            href="C:\Users\DELL\OneDrive\Desktop\project for yoga\yoga website acc to bmi.html"
+                            title="homepage" target="_parent" style="color: blanchedalmond">| Home |</a></div>
+                    <div class="chart" style="color: aliceblue;">
+                        <a href="C:\Users\DELL\OneDrive\Desktop\project for yoga\bmi.html" title="chart"
+                            target="_parent" style="color: blanchedalmond">| Category |
+                        </a>
+                    </div>
+                    <div class="gallery" style="color: aliceblue;"><a
+                            href="C:\Users\DELL\OneDrive\Desktop\project for yoga\gallery.html" title="gallery"
+                            target="_parent" style="color: blanchedalmond">| Gallery |</a></div>
+                    <div class="about" style="color: blanchedalmond;"><a href="C:\Users\DELL\OneDrive\Desktop\project for yoga\about_us.html" style="color: blanchedalmond;"> | About
+                            us |</a>
+                    </div>
+                    <div class="contact" style="color: aliceblue;"><a
+                        onclick="window.location.href='#down'" title="contact_page"
+                              target="_parent" style="color: blanchedalmond; text-decoration: underline;">| Contact Us |</a></div>
+                              <a href="C:\Users\DELL\OneDrive\Desktop\project for yoga\login page.html"> <button
+                                onclick="document.getElementById('id01').style.display='block'"
+                                style="width:auto; margin-left: 30px; margin-right: 5px; font-size: 20px; background-color: blanchedalmond;">
+                                Login</button><div id="id01" class="modal">
+                        </a>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- backgrounf image -->
+        <div class="conn">
+            <img src="C:\Users\DELL\OneDrive\Desktop\background.jpg" class="frontimg">
+            <marquee class="text-block" style="font-size: 30px; text-decoration: solid;">YOU ARE ON RIGHT PLACE!!
+                THANKING YOU
+            </marquee>
+
+            <div class="con">
+                <div class="gap6"></div>
+                <img src="https://almayasabdam.com/wp-content/uploads/2015/06/o-YOGA-GROUP-facebook.jpg" height="250px"
+                    width="300px" style="float: left;">
+                <div class="gap6"></div>
+                <img src="https://i0.wp.com/www.internationalworldyogaalliance.org/wp-content/uploads/2021/09/group-children-are-engaged-yoga-with-trainer-ocean_110955-452.jpg?fit=626%2C411&ssl=1"
+                    height="250px" width="300px" style="float: left;">
+                <div class="gap6"></div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHwaFiNF9BQITuUzlHK7OXNPfYxRYcxkEe0WBmpTx8reTS_WMm49B14bn8b7XqO6flUR8&usqp=CAU"
+                    height="250px" width="300px" style="float: left;">
+                <div class="gap6"></div>
+                <img src="https://img.freepik.com/free-photo/yoga-group-classes-inside-gym_1303-14779.jpg"
+                    height="250px" width="300px" style="float: left;">
+            </div>
+            <div class="con2">
+                <div class="gap6"></div>
+                <img src="https://images.pexels.com/photos/5384538/pexels-photo-5384538.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    height="250px" width="300px" style="float: left;">
+                <div class="gap6"></div>
+                <img src="https://st.depositphotos.com/1002111/3145/i/600/depositphotos_31456583-stock-photo-yoga-class.jpg"
+                    height="250px" width="300px" style="float: left;">
+                <div class="gap6"></div>
+                <img src="https://img.grouponcdn.com/deal/3chJEhKBZMJiYyZgb3T9Hyjm9Ci2/3c-1200x720/v1/c870x524.jpg"
+                    height="250px" width="300px" style="float: left;">
+                <div class="gap6"></div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw4-8I7bKWp2zjjjQ8oxMjSMMYeW1GW7KV8g&usqp=CAU"
+                    height="250px" width="300px" style="float: left;">
+
+            </div>
+            <div class="con3">
+                <div class="gap6"></div>
+                <img src="https://plus.unsplash.com/premium_photo-1664910461298-d47622d62ebd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MzJ8fGd5bSUyMHBob3Rvc3xlbnwwfHx8fDE2ODg3NDA3NDV8MQ&ixlib=rb-4.0.3&q=80&w=1080"
+                    height="250px" width="300px" style="float: left;">
+                <div class="gap6"></div>
+                <img src="https://media.istockphoto.com/id/1455669523/photo/positive-young-woman-performing-balancing-table-pose-during-group-yoga-class.jpg?s=612x612&w=0&k=20&c=np6vYWCiWHF-53HNEyWYUUszrZLpsP1rhiqqSZJdhvU="
+                    height="250px" width="300px" style="float: left;">
+                <div class="gap6"></div>
+                <img src="https://images.indianexpress.com/2020/06/partner-yoga-1200.jpg?w=389" height="250px"
+                    width="300px" style="float: left;">
+                <div class="gap6"></div>
+                <img src="https://media.istockphoto.com/id/1076946972/photo/group-of-people-practicing-yoga-head-to-knee-forward-bend.jpg?s=612x612&w=0&k=20&c=xIpgKpRWeQrWL55OGGaKc7cTZKhCIi2mEqWlzdhMXm4="
+                    height="250px" width="300px" style="float: left;">
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <!-- <h1><a href="https://en.wikipedia.org/wiki/Yoga" title="moreinfo" target="_blank">FOE MORE INFORMATION</a></h1> -->
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 style="text-align: center;"><a
+                href="C:\Users\DELL\OneDrive\Desktop\project for yoga\yoga website acc to bmi.html" title="homepage"
+                target="_parent" style="text-align: center;">GO TO HOME PAGE</a></h1>
+        <br>
+        <br>
+        <br>
+        <br>
+    <!-- <div class="afterimg">
+            <div class="gap3">
+
+            </div> -->
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+                .wow{
+                line-height: 1.5;
+                font-family: 'Poppins', sans-serif;
+                }
+                *{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                .container{
+                    max-width: 1170px;
+                    /* background-color: red; */
+                    margin: auto;
+                }
+                .row{
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                ul{
+                    list-style: none;
+                }
+                .footer{
+                    background-color: rgb(218, 160, 84);
+                    padding: 70px 0;
+                }
+                .footer-col{
+                    width: 25%;
+                    padding: 0 15px;
+                }
+                .footer-col h4{
+                    font-size: 18px;
+                    color: #ffffff;
+                    text-transform: capitalize;
+                    margin-bottom: 40px;
+                    font-weight: 500;
+                    position: relative;
+                    /* background-color: red; */
+                }
+               
+                .footer-col ul li:not(:last-child){
+                    margin-bottom: 10px;
+                }
+                .footer-col ul li a{
+                    font-size: 16px;
+                    text-transform: capitalize;
+                    color: rgb(218, 160, 84);
+                    text-decoration: none;
+                    font-weight: 300;
+                    color: #bbbbbb;
+                    display: block;
+                    transition: all 0.3s ease;
+                }
+                .footer-col ul li a:hover{
+                    color: #ffffff;
+                    padding-left: 8px;
+                }
+                .footer-col .social-links a{
+                    display: inline-block;
+                    height: 40px;
+                    width: 40px;
+                    background-color: rgba(255,255,255,0.2);
+                    margin: 0 10px 10px 0;
+                    text-align: center;
+                    line-height: 40px;
+                    border-radius: 50%;
+                    color: #ffffff;
+                    transition: all 0.5s ease;  
+                }
+                .footer-col .social-links a:hover{
+                    color: #24262b;
+                    background-color: #ffffff;
+                }
+                /* responsive */
+                @media(max-width:767px){
+                .footer-col{
+                    width: 50%;
+                    margin-bottom: 30px;
+                }
+                }
+                @media(max-width:574px){
+                .footer-col{
+                    width: 100%;
+                }
+                }
+            </style>
+            <br>
+            <br>
+            
+            <fotter class="foot">
+                <center>
+            <h1 style="color: rgb(218, 160, 84); font-size: 50px;">Click to reach the top 👇</h1>
+            <br>
+            <button class="top" onclick="window.location.href='#bottomtotop'" style="font-size: 30px; background-color: blanchedalmond;">
+                Click
+            </button>
+            </center>
+            </fotter>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="wow">
+
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4 id="down">Company</h4>
+                            <ul>
+                                <li><a href="#" style="color: blanchedalmond;">about us</a></li>
+                                <li><a href="#" style="color: blanchedalmond;">our services</a></li>
+                                <li><a href="#" style="color: blanchedalmond;">privacy policy</a></li>
+                                <li><a href="#" style="color: blanchedalmond;">affiliate program</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Get Help</h4>
+                            <ul>
+                                <li><a href="#" style="color: blanchedalmond;">FAQ</a></li>
+                                <li><a href="#" style="color: blanchedalmond;">shipping</a></li>
+                                <li><a href="#" style="color: blanchedalmond;">returns</a></li>
+                                <li><a href="#" style="color: blanchedalmond;">order status</a></li>
+                                <li><a href="#" style="color: blanchedalmond;">payment options</a></li>
+                            </ul>
+                        </div> 
+                        <div class="footer-col">
+                            <h4>Online Shop</h4>
+                            <ul>
+                                <li><a href="#" style="color: blanchedalmond;">watch</a></li>
+                                <li><a href="#" style="color: blanchedalmond;">bag</a></li>
+                                <li><a href="#" style="color: blanchedalmond;">shoes</a></li>
+                                <li><a href="#" style="color: blanchedalmond;">dress</a></li>
+                            </ul>
+                        </div> 
+                        <div class="footer-col">
+                            <h4>follow us</h4>
+                            <div class="social-links">
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-instagram"></a>
+                                <a href="#" class="fa fa-linkedin"></a>
+                                <a href="#" class="fa fa-youtube"></a>
+                                <a href="#" class="fa fa-whatsapp"></a>
+                                <a href="#" class="fa fa-google"></a>
+                                <a href="#" class="fa fa-chrome"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </footer>
+        </div>
+    </div>
+    </div>
+
+
+    </div>
+
+
+
+
+</body>
+
+</html>

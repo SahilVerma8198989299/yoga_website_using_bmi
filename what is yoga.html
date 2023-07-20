@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>sahil verma</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .complete {
+      /* background-color: black; */
+      box-shadow: blanchedalmond;
+      min-height: 100vh;
+      border: 10px solid blanchedalmond;
+    }
+
+    /* .gap{
+    height: 100px;
+    width: auto; */
+
+    /* } */
+    .frontimg {
+      height: auto;
+      width: fit-content
+    }
+
+    .navbar {
+      height: 100px;
+      width: auto;
+      background-color: rgb(218, 160, 84);
+      box-shadow: 0 4px 10px rgb(218, 160, 84);
+      /* padding: 25px; */
+    }
+
+    .home {
+      float: left;
+      color: aliceblue;
+      /* width: 150px; */
+      text-align: justify;
+      font-size: 20px;
+      margin-left: 30px;
+      /* border-bottom: 0.4rem transparent solid;
+    transition: 0.3s ease-in-out; */
+
+
+    }
+
+    .home:hover {
+      /* color: blueviolet; */
+      /* background-color: blueviolet; */
+      padding-top: 7px;
+      border-bottom: 0.3rem #dbd4db solid;
+      transition: 0.3s ease-in-out;
+    }
+
+    .chart {
+      float: left;
+      color: aliceblue;
+      /* width: 150px; */
+      text-align: justify;
+      font-size: 20px;
+      margin-left: 30px;
+    }
+
+    .chart:hover {
+      /* color: blueviolet; */
+      /* background-color: blueviolet; */
+      padding-top: 7px;
+      border-bottom: 0.3rem #dbd4db solid;
+      transition: 0.3s ease-in-out;
+    }
+
+    .gallery {
+      float: left;
+      color: aliceblue;
+      /* width: 150px; */
+      text-align: justify;
+      font-size: 20px;
+      margin-left: 30px;
+    }
+
+    .gallery:hover {
+      /* color: blueviolet; */
+      /* background-color: blueviolet; */
+      padding-top: 7px;
+      border-bottom: 0.3rem #dbd4db solid;
+      transition: 0.3s ease-in-out;
+    }
+
+    .about {
+      float: left;
+      color: aliceblue;
+      /* width: 150px; */
+      text-align: justify;
+      align-items: flex-end;
+      font-size: 20px;
+      margin-left: 30px;
+    }
+
+    .about:hover {
+      /* color: blueviolet; */
+      /* background-color: blueviolet; */
+      padding-top: 7px;
+      border-bottom: 0.3rem #dbd4db solid;
+      transition: 0.3s ease-in-out;
+    }
+
+    .contact {
+      float: left;
+      color: #2ff1f1;
+      margin-left: 30px;
+      text-align: justify;
+      font-size: 20px;
+
+    }
+
+    .contact:hover {
+      /* color: blueviolet; */
+      /* background-color: blueviolet; */
+      padding-top: 7px;
+      border-bottom: 0.3rem #dbd4db solid;
+      transition: 0.3s ease-in-out;
+    }
+
+    .butn {
+      margin-right: 5px;
+      float: right;
+      color: white text-align: justify;
+      font-size: 20px;
+      margin-left: 30px;
+      background-color: blanchedalmond;
+    }
+
+    .butn:hover {
+      color: rgb(196, 255, 232);
+      background-color: burlywood;
+
+    }
+
+    .gap2 {
+      height: 30px;
+      float: left;
+    }
+
+    /* .gapforhome{
+float: leaft;
+} */
+    .afterimg {
+      color: white;
+      height: 400px;
+    }
+
+    .gap3 {
+      height: 100px;
+    }
+
+    .navbar2 {
+      height: 100px;
+    }
+
+    .gap4 {
+      float: left;
+      width: 100px;
+      height: 200px;
+    }
+
+    .yoga {
+      width: 300px;
+      float: left;
+      font-size: 30px;
+      color: black;
+    }
+
+    .pose {
+      width: 300px;
+      float: left;
+      font-size: 30px;
+      color: black;
+    }
+
+    .history {
+      width: 300px;
+      float: left;
+      font-size: 30px;
+      color: black;
+    }
+
+    .meditaion {
+      width: 200px;
+      float: right;
+      font-size: 30px;
+      color: black;
+    }
+
+    .logo {
+      /* height: 100px; */
+      /* width: 100px; */
+      float: left;
+
+    }
+
+    .handlethehome {
+      float: right;
+      /* background-color: black; */
+      background-color: rgb(218, 160, 84);
+    }
+
+    .gap5 {
+      height: 30px;
+    }
+
+    .con {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .text-block {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      background-color: white;
+      color: rgb(218, 160, 84);
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="complete">
+    <div class="gap1">
+      <div>
+        <center>
+          <h1 style="background-color:white; color: rgb(218, 160, 84);;" id="bottomtotop">Yoga is a
+                  mental, physical, and spiritual practice which helps in attaining a great mind, body and
+                  soul.</h1>
+              </center>
+      </div>
+      <!-- <div>
+                    <marquee>
+                        <h1>hello</h1>
+                    </marquee> 
+                </div> -->
+      <div class="navbar">
+        <div class="logo">
+          <img src="C:\Users\DELL\OneDrive\Desktop\projectlogo.jpg" height="105px" width="100px">
+        </div>
+        <div class="gap2"></div>
+        <div class="gap5">
+
+        </div>
+        <div class="handlethehome">
+          <div class="gapforhome"></div>
+          <div class="home" style="color: aliceblue;"><a
+              href="C:\Users\DELL\OneDrive\Desktop\project for yoga\yoga website acc to bmi.html" title="homepage"
+              target="_parent" style="color: blanchedalmond">| Home |</a></div>
+          <div class="chart" style="color: aliceblue;">
+            <a href="C:\Users\DELL\OneDrive\Desktop\project for yoga\bmi.html" title="chart" target="_parent"
+              style="color: blanchedalmond">| Category |
+            </a>
+          </div>
+          <div class="gallery" style="color: aliceblue;"><a
+              href="C:\Users\DELL\OneDrive\Desktop\project for yoga\gallery.html" title="gallery" target="_parent"
+              style="color: blanchedalmond">| Gallery |</a></div>
+          <div class="about" style="color: blanchedalmond;"><a href="C:\Users\DELL\OneDrive\Desktop\project for yoga\about_us.html" style="color: blanchedalmond;"> | About us |</a>
+          </div>
+          <div class="contact" style="color: aliceblue;"><a
+            onclick="window.location.href='#down'" title="contact_page"
+                  target="_parent" style="color: blanchedalmond; text-decoration: underline;">| Contact Us |</a></div>
+          <!-- <button class="butn" type="submit" name="keys_submit"><a
+              href="C:\Users\DELL\OneDrive\Desktop\project for yoga\login page.html" title="login" target="_parent"
+              style="color: rgb(218, 160, 84); font-size: 15px;">LOG-IN/SIG-IN</a></button> -->
+              <a href="C:\Users\DELL\OneDrive\Desktop\project for yoga\login page.html"> <button
+                onclick="document.getElementById('id01').style.display='block'"
+                style="width:auto; margin-left: 30px; margin-right: 5px; font-size: 20px; background-color: blanchedalmond;">
+                Login</button><div id="id01" class="modal">
+        </a>
+        </div>
+      </div>
+
+
+    </div>
+    <!-- backgrounf image -->
+
+
+    <div class="con">
+      <img src="C:\Users\DELL\OneDrive\Desktop\background.jpg" class="frontimg">
+      <marquee class="text-block" style="font-size: 30px; text-decoration: solid;">YOU ARE ON RIGHT PLACE!! THANKING YOU
+      </marquee>
+
+
+    </div>
+    <!-- <div class="afterimg">
+            <div class="gap3">
+
+            </div> -->
+
+
+  <br>
+  <br>
+  <br>
+      <h1 style="text-align: center; text-decoration: underline;"><i style="COLO">WHAT</i> <I>IS</I> <I>YOGA ?</I></h1>
+
+  <br>
+  <br>
+  <center>
+    <img src="https://www.akshiyogashala.org/wp-content/uploads/2019/11/5CEvyaWxjaEt3FA7GFqXQVsUuYE8fuwBPpuHBhQEPMqqDr273t7dpF1wTkoSwNfzZD83ga4vFo7gzK1Ya.png" height="400px" width="500px">
+  </center>
+  <br>
+  <br>
+  <br>
+  <i style="text-align: justify; margin-left: 20px; margin-right: 10px; font-size: 30px;">Introduction :Yoga is essentially a spiritual discipline based on an extremely
+      subtle science, which focuses on bringing harmony between mind and body. It is an art and scince of healthy
+      living. The word 'Yoga' is derived from the Sanskrit root 'Yuj', meaning 'to join' or 'to yoke' or 'to
+      unite'</i>
+  <br>
+  <br>
+  <br>
+  <p style="text-align: justify; margin-left: 10px; margin-right: 10px; font-size: 20px;" >Yoga is a Sanskrit word translated as “yoke” or “union.” To yoke means to draw
+      together, to bind together; or to unite. Its aim is to yoke or create a union of the body, mind, soul, and
+      universal consciousness. This process of uniting the physical, mental, emotional, and spiritual aspects of
+      ourselves is what allows yogis to experience deep states of freedom, peace and self-realization</p>
+  <br>
+  <p style="text-align: justify; margin-left: 10px; margin-right: 10px; font-size: 20px;">Yoga is a meditative process of self-discovery and liberation. It is a diverse
+      collection of practices that aims to control the mind, recognize a detached witness consciousness, and free
+      oneself from the cycle of birth and death. It teaches us to see ourselves clearly, to understand what is
+      true about who we are, and to let go of anything that does not serve us. It helps us to become aware of our
+      thoughts, feelings, and beliefs, and to change them when they no longer serve us. It gives us the tools to
+      make better choices in life, and to live more fully.</p>
+  <br>
+  <p style="font-size: 15px; text-align: justify; margin-left: 10px; margin-right: 10px;">
+    <br>
+    <p style="font-size: 15px; text-align: justify; margin-left: 10px; margin-right: 10px; color: darkgreen; font-size: 20px;">Raja (the royal path) – focuses on meditation practices</p>
+    <br>
+    <p style="font-size: 15px; text-align: justify; margin-left: 10px; margin-right: 10px; color: crimson; font-size: 20px;">Karma (the path of action) – focuses on action and service in daily life</p>
+    <br>
+    <p style="font-size: 15px; text-align: justify; margin-left: 10px; margin-right: 10px; color: goldenrod; font-size: 20px;">Jnana (the path of knowledge) – focuses on discriminative wisdom and self inquiry</p>
+    <br>
+    <p style="font-size: 15px; text-align: justify; margin-left: 10px; margin-right: 10px; color: mediumslateblue; font-size: 20px;">Bhakti (the path of devotion) – focuses on devotion to God</p>
+    <br>
+    <p style="font-size: 15px; text-align: justify; margin-left: 10px; margin-right: 10px; color: lightcoral; font-size: 20px;">Tantra (the path of ecstasy) – focuses on ritual and initiation</p>
+    <br>
+    <p style="font-size: 15px; text-align: justify; margin-left: 10px; margin-right: 10px; color: cadetblue; font-size: 20px;">Hatha (the forceful path) – focuses on energy and movement of the body</p>
+
+  <br>
+  <br>
+  <center>
+  <img src="https://www.yogapedia.com/images/uploads/84664fd5-6270-4517-945e-25a62f5118a1.jpg" height="400px" width="500px">
+</center>
+<p style="text-align: justify; margin-left: 10px; margin-right: 10px; font-size: 20px;">
+    Yoga is an ancient and complex practice, rooted in Indian philosophy. It began as a spiritual practice but has become popular as a way of promoting physical and mental well-being.
+
+Although classical yoga also includes other elements, yoga as practiced in the United States typically emphasizes physical postures (asanas), breathing techniques (pranayama), and meditation (dyana).</p>
+<br>    
+<p style="margin-left: 10px; margin-right: 10px; text-align: center; font-size: 20px;">
+        The four traditional paths of yoga are:
+    <ol>
+    <br>
+        <p style="margin-left: 10px; text-align: center; margin-right: 10px; color: palevioletred; font-size: 20px;">1.Bhakti (devotion)</p>
+        <br>
+        <p style="text-align: justify; margin-left: 10px; margin-right: 10px; text-align: center; color:chocolate; font-size: 20px;">2.Karma (action/selfless service)</p>
+        <br>
+        <p style="text-align: justify; margin-left: 10px; margin-right: 10px; text-align: center; color:cyan; font-size: 20px;">3.Jnana (knowledge/self-study)</p>
+        <br>
+        <p style="text-align: justify; margin-left: 10px; margin-right: 10px; text-align: center; color: chartreuse; font-size: 20px;">4.Raja (self discipline/practice)</p>
+    </ol>
+    </p>
+    <br>
+    <br>
+    <br>
+    <center>
+    <img src="https://i.pinimg.com/originals/a5/a7/3f/a5a73f4246bba35ccfd39ceff7e6f93e.jpg" height="500px" width="850px>"
+</center>
+<br>
+<br>
+<br>
+
+        <i style="text-align: justify; margin-left: 10px; margin-right: 10px; font-size: 30px;">
+            "Yoga is a study of life, study of your body, breath, mind, intellect, memory, and ego. Study of your inner faculties!" - Gurudev Sri Sri Ravi Shankar
+        </i>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div style="text-align: center; font-size: 20px;">
+    <a href="C:\Users\DELL\OneDrive\Desktop\project for yoga\yoga website acc to bmi.html" target="_parent"
+        style="font-size: 30px;">GO TO HOME PAGE</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+            .wow{
+            line-height: 1.5;
+            font-family: 'Poppins', sans-serif;
+            }
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            .containerR{
+                max-width: 1170px;
+                /* background-color: red; */
+                margin: auto;
+            }
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            ul{
+                list-style: none;
+            }
+            .footer{
+                background-color:rgb(218, 160, 84);
+                padding: 70px 0;
+            }
+            .footer-col{
+                width: 25%;
+                padding: 0 15px;
+            }
+            .footer-col h4{
+                font-size: 18px;
+                color: blanchedalmond
+                text-transform: capitalize;
+                margin-bottom: 40px;
+                font-weight: 500;
+                position: relative;
+                /* background-color: red; */
+            }
+            /* .footer-col h4::before{
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -10px;
+                background-color: #e91e63;
+                height: 2px;
+                box-sizing: border-box;
+                width: 50px; */
+            }
+            .footer-col ul li:not(:last-child){
+                margin-bottom: 10px;
+            }
+            .footer-col ul li a{
+                font-size: 16px;
+                text-transform: capitalize;
+                color: blanchedalmond
+                text-decoration: none;
+                font-weight: 300;
+                color: #bbbbbb;
+                display: block;
+                transition: all 0.3s ease;
+            }
+            .footer-col ul li a:hover{
+                color: #ffffff;
+                padding-left: 8px;
+            }
+            .footer-col .social-links a{
+                display: inline-block;
+                height: 40px;
+                width: 40px;
+                background-color: rgba(255,255,255,0.2);
+                margin: 0 10px 10px 0;
+                text-align: center;
+                line-height: 40px;
+                border-radius: 50%;
+                color: #ffffff;
+                transition: all 0.5s ease;  
+            }
+            .footer-col .social-links a:hover{
+                color: #24262b;
+                background-color: #ffffff;
+            }
+            /* responsive */
+            @media(max-width:767px){
+            .footer-col{
+                width: 50%;
+                margin-bottom: 30px;
+            }
+            }
+            @media(max-width:574px){
+            .footer-col{
+                width: 100%;
+            }
+            }
+        </style>
+    <div class="wow">
+        <footer class="footer">
+            <div class="containerR">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4 id="down">Company</h4>
+                        <ul>
+                            <li><a href="#" style="color: blanchedalmond;">about us</a></li>
+                            <li><a href="#" style="color: blanchedalmond;">our services</a></li>
+                            <li><a href="#" style="color: blanchedalmond;">privacy policy</a></li>
+                            <li><a href="#" style="color: blanchedalmond;">affiliate program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Get Help</h4>
+                        <ul>
+                            <li><a href="#" style="color: blanchedalmond;">FAQ</a></li>
+                            <li><a href="#" style="color: blanchedalmond;">shipping</a></li>
+                            <li><a href="#" style="color: blanchedalmond;">returns</a></li>
+                            <li><a href="#" style="color: blanchedalmond;">order status</a></li>
+                            <li><a href="#" style="color: blanchedalmond;">payment options</a></li>
+                        </ul>
+                    </div> 
+                    <div class="footer-col">
+                        <h4>Online Shop</h4>
+                        <ul>
+                            <li><a href="#" style="color: blanchedalmond;">watch</a></li>
+                            <li><a href="#" style="color: blanchedalmond;">bag</a></li>
+                            <li><a href="#" style="color: blanchedalmond;">shoes</a></li>
+                            <li><a href="#" style="color: blanchedalmond;">dress</a></li>
+                        </ul>
+                    </div> 
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#" class="fa fa-youtube"></a>
+                            <a href="#" class="fa fa-whatsapp"></a>
+                            <a href="#" class="fa fa-google"></a>
+                            <a href="#" class="fa fa-chrome"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </footer>
+    </div>
+        
+</div>
+
+
+  </div>
+</div>
+
+
+
+</body>
+
+</html>

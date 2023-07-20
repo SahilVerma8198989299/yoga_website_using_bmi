@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>sahil verma</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .complete {
+      /* background-color: black; */
+      box-shadow: blanchedalmond;
+      min-height: 100vh;
+      border: 10px solid blanchedalmond;
+    }
+
+    /* .gap{
+    height: 100px;
+    width: auto; */
+
+    /* } */
+    .frontimg {
+      height: auto;
+      width: fit-content
+    }
+
+    .navbar {
+      height: 100px;
+      width: auto;
+      background-color: rgb(218, 160, 84);
+      box-shadow: 0 4px 10px rgb(218, 160, 84);
+      /* padding: 25px; */
+    }
+
+    .home {
+      float: left;
+      color: aliceblue;
+      /* width: 150px; */
+      text-align: justify;
+      font-size: 20px;
+      margin-left: 30px;
+      /* border-bottom: 0.4rem transparent solid;
+    transition: 0.3s ease-in-out; */
+
+
+    }
+
+    .home:hover {
+      /* color: blueviolet; */
+      /* background-color: blueviolet; */
+      padding-top: 7px;
+      border-bottom: 0.3rem #dbd4db solid;
+      transition: 0.3s ease-in-out;
+    }
+
+    .chart {
+      float: left;
+      color: aliceblue;
+      /* width: 150px; */
+      text-align: justify;
+      font-size: 20px;
+      margin-left: 30px;
+    }
+
+    .chart:hover {
+      /* color: blueviolet; */
+      /* background-color: blueviolet; */
+      padding-top: 7px;
+      border-bottom: 0.3rem #dbd4db solid;
+      transition: 0.3s ease-in-out;
+    }
+
+    .gallery {
+      float: left;
+      color: aliceblue;
+      /* width: 150px; */
+      text-align: justify;
+      font-size: 20px;
+      margin-left: 30px;
+    }
+
+    .gallery:hover {
+      /* color: blueviolet; */
+      /* background-color: blueviolet; */
+      padding-top: 7px;
+      border-bottom: 0.3rem #dbd4db solid;
+      transition: 0.3s ease-in-out;
+    }
+
+    .about {
+      float: left;
+      color: aliceblue;
+      /* width: 150px; */
+      text-align: justify;
+      align-items: flex-end;
+      font-size: 20px;
+      margin-left: 30px;
+    }
+
+    .about:hover {
+      /* color: blueviolet; */
+      /* background-color: blueviolet; */
+      padding-top: 7px;
+      border-bottom: 0.3rem #dbd4db solid;
+      transition: 0.3s ease-in-out;
+    }
+
+    .contact {
+      float: left;
+      color: #2ff1f1;
+      margin-left: 30px;
+      text-align: justify;
+      font-size: 20px;
+
+    }
+
+    .contact:hover {
+      /* color: blueviolet; */
+      /* background-color: blueviolet; */
+      padding-top: 7px;
+      border-bottom: 0.3rem #dbd4db solid;
+      transition: 0.3s ease-in-out;
+    }
+
+    .butn {
+      margin-right: 5px;
+      float: right;
+      color: white text-align: justify;
+      font-size: 20px;
+      margin-left: 30px;
+      background-color: blanchedalmond;
+    }
+
+    .butn:hover {
+      color: rgb(196, 255, 232);
+      background-color: burlywood;
+
+    }
+
+    .gap2 {
+      height: 30px;
+      float: left;
+    }
+
+    /* .gapforhome{
+float: leaft;
+} */
+    .afterimg {
+      color: white;
+      height: 400px;
+    }
+
+    .gap3 {
+      height: 100px;
+    }
+
+    .navbar2 {
+      height: 100px;
+    }
+
+    .gap4 {
+      float: left;
+      width: 100px;
+      height: 200px;
+    }
+
+    .yoga {
+      width: 300px;
+      float: left;
+      font-size: 30px;
+      color: black;
+    }
+
+    .pose {
+      width: 300px;
+      float: left;
+      font-size: 30px;
+      color: black;
+    }
+
+    .history {
+      width: 300px;
+      float: left;
+      font-size: 30px;
+      color: black;
+    }
+
+    .meditaion {
+      width: 200px;
+      float: right;
+      font-size: 30px;
+      color: black;
+    }
+
+    .logo {
+      /* height: 100px; */
+      /* width: 100px; */
+      float: left;
+
+    }
+
+    .handlethehome {
+      float: right;
+      /* background-color: black; */
+      background-color: rgb(218, 160, 84);
+    }
+
+    .gap5 {
+      height: 30px;
+    }
+
+    .con {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .text-block {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      background-color: white;
+      color: rgb(218, 160, 84);
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="complete">
+    <div class="gap1">
+      <div>
+        <center>
+          <h1 style="background-color:white; color: rgb(218, 160, 84);;" id="bottomtotop">Yoga is a
+                  mental, physical, and spiritual practice which helps in attaining a great mind, body and
+                  soul.</h1>
+              </center>
+      </div>
+      <!-- <div>
+                    <marquee>
+                        <h1>hello</h1>
+                    </marquee> 
+                </div> -->
+      <div class="navbar">
+        <div class="logo">
+          <img src="C:\Users\DELL\OneDrive\Desktop\projectlogo.jpg" height="105px" width="100px">
+        </div>
+        <div class="gap2"></div>
+        <div class="gap5">
+
+        </div>
+        <div class="handlethehome">
+          <div class="gapforhome"></div>
+          <div class="home" style="color: aliceblue;"><a
+              href="C:\Users\DELL\OneDrive\Desktop\project for yoga\yoga website acc to bmi.html" title="homepage"
+              target="_parent" style="color: blanchedalmond">| Home |</a></div>
+          <div class="chart" style="color: aliceblue;">
+            <a href="C:\Users\DELL\OneDrive\Desktop\project for yoga\bmi.html" title="chart" target="_parent"
+              style="color: blanchedalmond">| Category |
+            </a>
+          </div>
+          <div class="gallery" style="color: aliceblue;"><a
+              href="C:\Users\DELL\OneDrive\Desktop\project for yoga\gallery.html" title="gallery" target="_parent"
+              style="color: blanchedalmond">| Gallery |</a></div>
+          <div class="about" style="color: blanchedalmond;"><a href="" style="color: blanchedalmond;"> | About us |</a>
+          </div>
+          <div class="contact" style="color: aliceblue;"><a onclick="window.location.href='#down'" title="contact_page"
+              target="_parent" style="color: blanchedalmond; text-decoration: underline;">| Contact Us |</a></div>
+          <!-- <button class="butn" type="submit" name="keys_submit"><a
+              href="C:\Users\DELL\OneDrive\Desktop\project for yoga\login page.html" title="login" target="_parent"
+              style="color: rgb(218, 160, 84); font-size: 15px;">LOG-IN/SIG-IN</a></button> -->
+          <a href="C:\Users\DELL\OneDrive\Desktop\project for yoga\login page.html"><button
+              onclick="document.getElementById('id01').style.display='block'"
+              style="width:auto; margin-left: 30px; margin-right: 5px; font-size: 20px;background-color: blanchedalmond;">Login</button>
+            <div id="id01" class="modal">
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <!-- backgrounf image -->
+
+
+    <div class="con">
+      <img src="C:\Users\DELL\OneDrive\Desktop\background.jpg" class="frontimg">
+      <marquee class="text-block" style="font-size: 30px; text-decoration: solid;">YOU ARE ON RIGHT PLACE!! THANKING YOU
+      </marquee>
+
+
+    </div>
+    <!-- <div class="afterimg">
+            <div class="gap3">
+
+            </div> -->
+            <html><head><title></title></head>
+            <body style="font-family: Candara;" >
+                <br>
+                <br>
+                <p><h2>Does yoga help you gain weight?</h2>
+                    <br>
+                    
+                    According to the experts, yoga can help with muscular strength and endurance, 
+                    but it won’t necessarily cause weight or muscle gain.
+                    Additionally, to gain weight and muscle size, you need a diet high enough in calories.
+                    And while you might be hard-pressed to see a double-digit increase on the scale, 
+                    certain yoga styles and poses may contribute to an increase in muscular strength.
+                    </p>
+                    <br>
+                    <br>
+                    <center><img src="C:\Users\Dell\OneDrive\Desktop\project for yoga\img18.jpg", width="450" height="400"></center>
+                    <br>
+                    <br>
+                <table bgcolor="white">
+                    <tr><td><img src="C:\Users\Dell\OneDrive\Desktop\project for yoga\chair.png", width="550" height="450">
+                    </td><td><h3>Chair Pose (Utkatasana)</h3>
+                        If you’re looking to target your thighs, hamstrings, and glutes,
+                        Baumgartner says Chair Pose is an excellent choice.
+                        <ol><li>Start in a standing position with feet together and arms at your sides.
+                            <li>Lift your arms up over your head with fingers pointing toward the sky. Keep them close to your ears.
+                            <li>Bend your knees to get into a partial squat position, with knees and thighs parallel. This will move your hips back like you’re sitting a chair.
+                            <li>Slightly lean your upper body forward and reach through your fingers.
+                            <li>Hold for 10–15 breaths.
+                        </ol></td></tr>
+                    <tr><td><h3>Upward-Facing Dog Pose (Urdhva Mukha Svanasana)</h3>
+                        <ol>
+                            <li>Lie facedown with your arms bent and palms flat on the floor next to your chest.
+                            <li>Press palms into the floor and lift your torso off the floor. Keep glutes and hamstrings engaged.
+                            <li>Inhale and lift your torso higher. Your arms will fully extend, and your hips and thighs will be off the floor. Tilt your head back to look up at the ceiling and keep shoulders away from ears.
+                            <li>Hold for 30 seconds.
+                        </ol>
+                    </td><td><img src="C:\Users\Dell\OneDrive\Desktop\project for yoga\upward.jpg", width="600" height="500"></td></tr>
+                    <tr><td><img src="C:\Users\Dell\OneDrive\Desktop\project for yoga\chaturanga.jpg", width="650" height="450"></td>
+                        <td><h3>Four-Limbed Staff Pose (Chaturanga)</h3>
+                            "One of the most beneficial poses for muscle gain and strength building is Chaturanga — a flowing movement through a high plank to a low
+                             tricep pushup,” says Baumgartner.
+                            When done correctly, Chaturanga works your core, biceps, triceps, shoulders, quads, and glutes.
+                             This pose is repeated in a Vinyasa power yoga class, and Baumgartner says students will complete anywhere from 12–20 Chaturangas in a 60-minute flow.
+                        <ol>
+                            <li>Start in the traditional high plank pose.
+                            <li>Engage core and glutes, bend your elbows, and lower your shoulders (they should be at the same height as your elbows). Make sure elbows are close to your body and pointing back the whole time.
+                            <li>Hover over the floor with your upper body and legs about 2–3 inches off the floor.
+                            <li>Look slightly forward. Open up your chest and upper back.
+                            <li>Press back up into a high plank or Downward- or Upward-Facing Dog.
+                            <li>Hold for 10–30 seconds.
+                        </ol></td></tr>
+                    <tr><td><h3>Warrior II Pose (Virabhadrasana II)</h3>
+                        “Warrior II Pose is a great pose to build strength in your inner legs,” says Baumgartner. The action of pulling your heels together gives your inner legs a significant workout.
+                        <ol>
+                            <li>Stand with feet in a wide position, 4–5 feet apart, and extend your arms out to the sides.
+                            <li>Turn your right foot so it faces the short end of your mat. Your front heel should align with the center of your back instep. Bend front leg into a lunge position with knee above ankle and pointing over your toes.
+                            <li>Turn your head to the right, so you’re looking toward your right hand.
+                            <li>Hold for 30 seconds, then repeat on the left side.
+            
+                        </ol>
+                    </td><td><img src="C:\Users\Dell\OneDrive\Desktop\project for yoga\warrior2.0.jpg"></td></tr>
+                    <tr><td><img src="C:\Users\Dell\OneDrive\Desktop\project for yoga\warrior3.jpg"></td>
+                        <td><h3>Warrior III Pose (Virabhadrasana III)</h3>
+                            Warrior III is a balancing pose, which Baumgartner says will build muscles in your core, quads, and glutes.
+                    <ol>
+                        <li>Start in a lunge position with forward knee bent and back leg straight. The ball of your back foot will be in contact with the floor, while your heel is raised. Lift arms above your head and look forward.
+                        <li>Lower your arms and bring hands together, palms touching, in a prayer position.
+                        <li>Slightly straighten your bent knee or forward leg and lean forward until back leg is off the floor, extending straight back. Keep front leg straight but not locked at the knee. Keep your gaze toward the floor.
+                        <li>Reach arms forward. Your head will be between your arms and your gaze down. Keep back leg straight and balancing leg strong.
+                        <li>Hold for 30 seconds.
+                          
+                    </ol></td></tr>
+                </table>
+            <br>
+            <br>
+            <br>
+                <div style="text-align: center; font-size: 20px;">
+                    <a href="C:\Users\DELL\OneDrive\Desktop\project for yoga\yoga website acc to bmi.html" target="homepage"
+                      target="_parent">GO TO HOME</a>
+                  </div>
+            </body>
+            </html>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+      .wow {
+        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        max-width: 1170px;
+        /* background-color: red; */
+        margin: auto;
+      }
+
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      ul {
+        list-style: none;
+      }
+
+      .footer {
+        background-color: rgb(218, 160, 84);
+        padding: 70px 0;
+      }
+
+      .footer-col {
+        width: 25%;
+        padding: 0 15px;
+      }
+
+      .footer-col h4 {
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 40px;
+        font-weight: 500;
+        position: relative;
+        /* background-color: red; */
+      }
+
+      .footer-col ul li:not(:last-child) {
+        margin-bottom: 10px;
+      }
+
+      .footer-col ul li a {
+        font-size: 16px;
+        text-transform: capitalize;
+        color: rgb(218, 160, 84);
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+      }
+
+      .footer-col ul li a:hover {
+        color: #ffffff;
+        padding-left: 8px;
+      }
+
+      .footer-col .social-links a {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #ffffff;
+        transition: all 0.5s ease;
+      }
+
+      .footer-col .social-links a:hover {
+        color: #24262b;
+        background-color: #ffffff;
+      }
+
+      /* responsive */
+      @media(max-width:767px) {
+        .footer-col {
+          width: 50%;
+          margin-bottom: 30px;
+        }
+      }
+
+      @media(max-width:574px) {
+        .footer-col {
+          width: 100%;
+        }
+      }
+    </style>
+    <br>
+    <br>
+
+    <fotter class="foot">
+      <center>
+        <h1 style="color: rgb(218, 160, 84); font-size: 50px;">Click to reach the top 👇</h1>
+        <br>
+        <button class="top" onclick="window.location.href='#bottomtotop'"
+          style="font-size: 30px; background-color: blanchedalmond;">
+          Click
+        </button>
+      </center>
+    </fotter>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="footer">
+      <div class="wow">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4 id="down">Company</h4>
+              <ul>
+                <li><a href="#" style="color: blanchedalmond;">about us</a></li>
+                <li><a href="#" style="color: blanchedalmond;">our services</a></li>
+                <li><a href="#" style="color: blanchedalmond;">privacy policy</a></li>
+                <li><a href="#" style="color: blanchedalmond;">affiliate program</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Get Help</h4>
+              <ul>
+                <li><a href="#" style="color: blanchedalmond;">FAQ</a></li>
+                <li><a href="#" style="color: blanchedalmond;">shipping</a></li>
+                <li><a href="#" style="color: blanchedalmond;">returns</a></li>
+                <li><a href="#" style="color: blanchedalmond;">order status</a></li>
+                <li><a href="#" style="color: blanchedalmond;">payment options</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Online Shop</h4>
+              <ul>
+                <li><a href="#" style="color: blanchedalmond;">watch</a></li>
+                <li><a href="#" style="color: blanchedalmond;">bag</a></li>
+                <li><a href="#" style="color: blanchedalmond;">shoes</a></li>
+                <li><a href="#" style="color: blanchedalmond;">dress</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-whatsapp"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-chrome"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  </div>
+
+
+
+
+</body>
+
+</html>
